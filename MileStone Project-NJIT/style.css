@@ -1,0 +1,64 @@
+#score {
+   text-align: center;
+   color: aliceblue;
+}
+body{
+   background-image: url(https://live.staticflickr.com/3915/15163393959_34cac27a11_b.jpg);
+   
+
+}
+
+#title{
+   position: relative;
+   left: 650px;
+   color: red;
+}
+#game {
+   width: 600px;
+   height: 300px;
+   border: 2px solid black;
+   margin: auto;
+   background-image: url(https://s3.envato.com/files/234687569/Halloween%20Game%20Background/Halloween%20BG%2001/Halloween%20Background%2001.png);
+   background-size: cover;
+}
+
+#dino {
+   height: 75px;
+   width: 75px;
+   position: relative;
+   top: 225px;
+   background-image: url(https://thumbs.dreamstime.com/b/halloween-pumpkin-lantern-pixel-art-game-icon-carved-face-eight-bit-retro-video-style-196478541.jpg);
+   background-size: cover;
+   border-radius: 100px;
+   
+}
+
+#rock {
+   height: 50px;
+   width: 50px;
+   position: relative;
+   top: 175px;
+   left: 550px;
+   background-image: url(https://image.shutterstock.com/image-vector/combat-knife-8bit-pixel-art-260nw-1904027962.jpg);
+   background-size: cover;
+   animation: rock 1.33s infinite;
+   border-radius: 50px;
+
+}
+
+@keyframes rock {
+   0%{left: 500px;}
+   100%{left: -50px;}
+}
+
+.jump-animation {
+   animation: jump 0.5s;
+}
+
+@keyframes jump {
+   0%{left: 25px;}
+   50%{top: 75px;}
+   75%{top : 75px;}
+   100%{left: 15px;}
+}
+
